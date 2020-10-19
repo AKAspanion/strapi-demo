@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/travel-blogs",
+      "handler": "travel-blogs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-blogs/count",
+      "handler": "travel-blogs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-blogs/:id",
+      "handler": "travel-blogs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/travel-blogs",
+      "handler": "travel-blogs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/travel-blogs/:id",
+      "handler": "travel-blogs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/travel-blogs/:id",
+      "handler": "travel-blogs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
